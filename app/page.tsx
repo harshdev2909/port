@@ -291,7 +291,7 @@ export default function Portfolio() {
                 icon: <Code className="w-6 h-6" />,
               },
               {
-                company: "ZerodotEmail",
+                company: "0.Email",
                 role: "open source contributor",
                 period: "April 2025 - Present",
                 gradient: "from-blue-500 to-blue-600",
