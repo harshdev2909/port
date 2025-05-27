@@ -15,35 +15,7 @@ export default function Portfolio() {
 
   useEffect(() => {
     // GSAP animations for hero section
-    const tl = gsap.timeline()
-
-    tl.from(".hero-title", {
-      duration: 1.2,
-      y: 100,
-      opacity: 0,
-      ease: "power3.out",
-    })
-      .from(
-        ".hero-subtitle",
-        {
-          duration: 1,
-          y: 50,
-          opacity: 0,
-          ease: "power3.out",
-        },
-        "-=0.8",
-      )
-      .from(
-        ".hero-avatar",
-        {
-          duration: 1.5,
-          scale: 0,
-          rotation: 180,
-          ease: "elastic.out(1, 0.5)",
-        },
-        "-=0.5",
-      )
-
+    
     // Floating animation for avatar
     gsap.to(".hero-avatar", {
       y: -10,
